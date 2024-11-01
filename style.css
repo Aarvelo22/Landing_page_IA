@@ -1,0 +1,21 @@
+/* seteo de styles */
+
+
+
+
+
+/* navbar */
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+header nav ul {
+    display: flex;
+    gap: 65px;
+    list-style: none;
+    
+
+}
