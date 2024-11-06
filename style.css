@@ -13,8 +13,14 @@
     font-size: 1rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 400;
-    color: #ffffff;
+   
+color: #ffffff;
+}
 
+/* Mientras tanto para cambiar el background del body */
+
+body{
+    background-color: #202022;
 }
 
 /* heading background */
@@ -22,6 +28,8 @@
 .heading__background {
     padding: 25px 80px;
     background-image: url(/assets/jumbotron\ \(1\).jpg);
+    background-position: center;
+    background-size: cover;
 }
 
 
@@ -39,9 +47,22 @@
 .navbar__nav__list {
     display: flex;
     gap: 65px;
+   
 
 }
+    .navbar__nav__list li a{
+        color: #ffffff;
+    }
+/* Boton de contactanos */
+.navbar__nav_button {
+    background-color: #00747C;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 20px 20px;
+    border-radius: 50px;
 
+
+}
 /* Jumbotron */
 .jumbotron {
     padding: 50px 0;
@@ -52,5 +73,14 @@
     font-weight: 700;
     text-align: center;
     padding: 80px 105px;
+    color: #ffffff;
 
 }
+
+/* Section 1 */
+
+    .section__Principal{
+        display: flex;
+       
+    }
+ 
