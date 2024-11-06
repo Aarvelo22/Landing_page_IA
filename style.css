@@ -199,4 +199,33 @@ body {
 
 .footer__content{
     display: flex;
+    padding-left: 80px;
+    padding-right: 80px;
+    gap: 100px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.footer__content__title__img{
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+.footer__content__title__img img{
+    width: 56px;
+}
+.footer__content__body{
+    display: flex;
+    gap: 120px;
+}
+.footer__content__body__text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.footer__content__body__text h4{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
 }
