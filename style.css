@@ -13,13 +13,13 @@
     font-size: 1rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 400;
-   
-color: #ffffff;
+
+    color: #ffffff;
 }
 
 /* Mientras tanto para cambiar el background del body */
 
-body{
+body {
     background-color: #202022;
 }
 
@@ -47,12 +47,14 @@ body{
 .navbar__nav__list {
     display: flex;
     gap: 65px;
-   
+
 
 }
-    .navbar__nav__list li a{
-        color: #ffffff;
-    }
+
+.navbar__nav__list li a {
+    color: #ffffff;
+}
+
 /* Boton de contactanos */
 .navbar__nav_button {
     background-color: #00747C;
@@ -63,6 +65,7 @@ body{
 
 
 }
+
 /* Jumbotron */
 .jumbotron {
     padding: 50px 0;
@@ -79,8 +82,121 @@ body{
 
 /* Section 1 */
 
-    .section__Principal{
-        display: flex;
-       
-    }
+.section__principal {
+    display: flex;
+    padding: 10px 80px 10px 80px;
+    gap: 25px;
+}
+
+/* imagen del section principal */
+.section__principal__img {
+    width: 50%;
+    display: flex;
+
+}
+
+.section__principal__img img {
+    width: 100%;
+}
+
+/* texto del section */
+.section__principal__text {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+
+}
+
+.section__principal__text h2 {
+
+    font-size: 3.5rem;
+    color: #00747C;
+    font-weight: 700;
+
+}
+
+.section__principal__text p {
+    font-size: 1.5rem;
+}
+/* section card */
+.section-card{
+    display: flex;
+    padding: 60px 80px;
+    gap: 80px;
+    flex-wrap: wrap;
+    
+
+}
+/* card */
+.card{
+    background-color: #ffffff;
+    display: flex;
+    flex-basis: 260px;
+    flex-direction: column;
+    gap: 22px;
+    flex-basis: 260px;
  
+
+}
+
+/* textos y titulos */
+
+.card__body {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    padding-left: 18px;
+    padding-right: 18px;
+   
+}
+
+
+.card__body__title{
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #000000;
+    
+
+
+}
+.card__body__text{
+    color: #000000;
+}
+.card__body__price{
+    color: #00747C;
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
+
+
+
+/* img */
+
+.card__img {
+    width: 100%;
+
+}
+
+
+.card button{
+    width: 100%;
+    padding: 12px;
+    background-color: #00747C;
+    
+}
+.card button:hover{
+    background-color: #ffffff;
+    color: #00747C;
+    font-weight: bold;
+    transition: 0.3s ease-in;
+
+}
+
+/* footer */
+
+.footer__content{
+    display: flex;
+}
