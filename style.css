@@ -62,8 +62,14 @@ body {
     font-weight: bold;
     padding: 20px 20px;
     border-radius: 50px;
+    transition: 0.2s ease-in-out;
 
 
+}
+.navbar__nav_button:hover{
+    transition: 0.2s ease-in;
+    color: #00747C;
+    background-color: #ffffff;
 }
 
 /* Jumbotron */
@@ -90,12 +96,14 @@ body {
 
 /* imagen del section principal */
 .section__principal__img {
+
     width: 50%;
     display: flex;
 
 }
 
 .section__principal__img img {
+    padding-top: 20px;
     width: 100%;
 }
 
@@ -120,24 +128,26 @@ body {
 .section__principal__text p {
     font-size: 1.5rem;
 }
+
 /* section card */
-.section-card{
+.section-card {
     display: flex;
     padding: 60px 80px;
     gap: 80px;
     flex-wrap: wrap;
-    
+
 
 }
+
 /* card */
-.card{
+.card {
     background-color: #ffffff;
     display: flex;
     flex-basis: 260px;
     flex-direction: column;
     gap: 22px;
     flex-basis: 260px;
- 
+
 
 }
 
@@ -149,22 +159,24 @@ body {
     gap: 18px;
     padding-left: 18px;
     padding-right: 18px;
-   
+
 }
 
 
-.card__body__title{
+.card__body__title {
     font-size: 1.25rem;
     font-weight: bold;
     color: #000000;
-    
+
 
 
 }
-.card__body__text{
+
+.card__body__text {
     color: #000000;
 }
-.card__body__price{
+
+.card__body__price {
     color: #00747C;
     font-weight: bold;
     font-size: 1.25rem;
@@ -181,50 +193,59 @@ body {
 }
 
 
-.card button{
+.card button {
     width: 100%;
     padding: 12px;
     background-color: #00747C;
-    
+    transition: 0.2s ease-in-out;
+
 }
-.card button:hover{
+
+.card button:hover {
     background-color: #ffffff;
     color: #00747C;
     font-weight: bold;
     transition: 0.3s ease-in;
+    border: #00747C;
 
 }
 
 /* footer */
 
-.footer__content{
+.footer__content {
     display: flex;
     padding-left: 80px;
     padding-right: 80px;
     gap: 100px;
     padding-top: 25px;
     padding-bottom: 25px;
+
 }
-.footer__content__title__img{
-  width: 35%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 30px;
+
+.footer__content__title__img {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
 }
-.footer__content__title__img img{
+
+.footer__content__title__img img {
     width: 56px;
 }
-.footer__content__body{
+
+.footer__content__body {
     display: flex;
     gap: 120px;
 }
-.footer__content__body__text{
+
+.footer__content__body__text {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
-.footer__content__body__text h4{
+
+.footer__content__body__text h4 {
     text-align: center;
     font-size: 24px;
     font-weight: 700;
